@@ -1,4 +1,4 @@
-package com.example.factorypattern.models;
+package com.example.factorypattern.models.mmus;
 
 public class EnginolaMmu extends Mmu {
     @Override

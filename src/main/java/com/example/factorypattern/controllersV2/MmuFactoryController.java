@@ -1,8 +1,8 @@
 package com.example.factorypattern.controllersV2;
 
-import com.example.factorypattern.Architecture;
+import com.example.factorypattern.models.enums.Architecture;
 import com.example.factorypattern.factories.ArchitectureFactory;
-import com.example.factorypattern.models.*;
+import com.example.factorypattern.models.mmus.Mmu;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,10 +1,10 @@
 package com.example.factorypattern.factories;
 
-import com.example.factorypattern.Architecture;
-import com.example.factorypattern.models.Cpu;
-import com.example.factorypattern.models.EnginolaCpu;
-import com.example.factorypattern.models.EnginolaMmu;
-import com.example.factorypattern.models.Mmu;
+import com.example.factorypattern.models.enums.Architecture;
+import com.example.factorypattern.models.cpu.Cpu;
+import com.example.factorypattern.models.cpu.EnginolaCpu;
+import com.example.factorypattern.models.mmus.EnginolaMmu;
+import com.example.factorypattern.models.mmus.Mmu;
 import org.springframework.stereotype.Component;
 
 @Component

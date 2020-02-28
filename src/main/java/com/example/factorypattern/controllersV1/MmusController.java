@@ -1,7 +1,10 @@
 package com.example.factorypattern.controllersV1;
 
-import com.example.factorypattern.Architecture;
-import com.example.factorypattern.models.*;
+import com.example.factorypattern.models.enums.Architecture;
+import com.example.factorypattern.models.mmus.AlphaMmu;
+import com.example.factorypattern.models.mmus.EmberMmu;
+import com.example.factorypattern.models.mmus.EnginolaMmu;
+import com.example.factorypattern.models.mmus.Mmu;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

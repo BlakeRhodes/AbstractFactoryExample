@@ -1,12 +1,8 @@
 package com.example.factorypattern.factories;
 
-import com.example.factorypattern.Architecture;
-import com.example.factorypattern.models.Cpu;
-import com.example.factorypattern.models.Mmu;
-
-import javax.annotation.PostConstruct;
-import java.util.HashMap;
-import java.util.Map;
+import com.example.factorypattern.models.enums.Architecture;
+import com.example.factorypattern.models.cpu.Cpu;
+import com.example.factorypattern.models.mmus.Mmu;
 
 public abstract class ArchitectureFactory {
     protected Architecture architecture;

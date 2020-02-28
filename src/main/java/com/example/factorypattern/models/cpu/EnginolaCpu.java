@@ -1,4 +1,4 @@
-package com.example.factorypattern.models;
+package com.example.factorypattern.models.cpu;
 
 public class EnginolaCpu extends Cpu{
 

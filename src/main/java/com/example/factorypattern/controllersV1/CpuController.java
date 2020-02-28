@@ -1,10 +1,10 @@
 package com.example.factorypattern.controllersV1;
 
-import com.example.factorypattern.Architecture;
-import com.example.factorypattern.models.AlphaCpu;
-import com.example.factorypattern.models.Cpu;
-import com.example.factorypattern.models.EmberCpu;
-import com.example.factorypattern.models.EnginolaCpu;
+import com.example.factorypattern.models.enums.Architecture;
+import com.example.factorypattern.models.cpu.AlphaCpu;
+import com.example.factorypattern.models.cpu.Cpu;
+import com.example.factorypattern.models.cpu.EmberCpu;
+import com.example.factorypattern.models.cpu.EnginolaCpu;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
